@@ -1,2 +1,51 @@
 
-/* Your CSS Code here. */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieCard {
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    text-align: center;
+    background-color: #222222;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.moviePic {
+    height: 350px;
+    width: 240px;
+    opacity: 0.9;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #f5c518;
+    margin-top: 20px;
+}
+
+.movieDetail {
+    position: relative;
+    top: 0;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #dddddd;
+}
+
+.movieRating {
+    color: #f5c518;
+    font-size: 15px;
+}
